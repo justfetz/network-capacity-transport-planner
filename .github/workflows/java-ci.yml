@@ -1,0 +1,38 @@
+name: Java CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Temurin JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Run Java regression harness
+        shell: pwsh
+        run: .\java\run-java-tests.ps1
+
+      - name: Smoke run legacy-shaped scenario
+        shell: pwsh
+        run: |
+          $javaHome = $env:JAVA_HOME
+          $javac = Join-Path $javaHome 'bin\javac.exe'
+          $java = Join-Path $javaHome 'bin\java.exe'
+          $outDir = Join-Path $PWD 'out-ci'
+          if (Test-Path $outDir) { Remove-Item -Recurse -Force $outDir }
+          New-Item -ItemType Directory -Path $outDir | Out-Null
+          $files = Get-ChildItem '.\src\main\java\planner' -Filter *.java | ForEach-Object { $_.FullName }
+          & $javac -d $outDir $files
+          & $java -cp $outDir planner.Main 'input/legacy_shape_facilities.csv' 'input/legacy_shape_demand.csv'

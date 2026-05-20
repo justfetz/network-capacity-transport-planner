@@ -1,5 +1,7 @@
 # Network Capacity Transport Planner
 
+[![Java CI](https://github.com/justfetz/network-capacity-transport-planner/actions/workflows/java-ci.yml/badge.svg)](https://github.com/justfetz/network-capacity-transport-planner/actions/workflows/java-ci.yml)
+
 This project is a public-safe repurposing of a real-world plant network capacity planning use case.
 
 Instead of exposing company names, exact operating assumptions, or embedded business identifiers, this version reframes the model as a general operations research problem:
@@ -89,12 +91,28 @@ A lightweight Java regression harness is included for the key public-safe rules:
 - unserviced demand when capacity is insufficient
 - future capacity adjustment behavior
 - facility opening window behavior
+- legacy-shaped scenario load behavior
 
 Run it with:
 
 ```powershell
 .\java\run-java-tests.ps1
 ```
+
+## Quality signals
+
+- GitHub Actions runs the Java regression harness on every push and pull request.
+- The current test layer is intentionally framework-light to keep the baseline easy to run locally.
+- Code coverage is a logical next step once the repo moves to a fuller Java test stack such as JUnit + JaCoCo alongside the planned Python and OR-Tools parity work.
+
+## Contribution flow
+
+- Open a short-lived feature branch for each change.
+- Keep the public-safe contract intact: no company names, private identifiers, or copied enterprise coordinates.
+- Run `.\java\run-java-tests.ps1` before opening a pull request.
+- Use pull requests even for solo work so the history stays reviewable.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the lightweight project workflow.
 
 ## Next steps
 
