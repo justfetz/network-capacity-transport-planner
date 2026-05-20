@@ -1,0 +1,11 @@
+facility_id,facility_name,remaining_family_a_sqft,remaining_family_b_sqft
+F01,Great Lakes Hub,1500000000,52000000
+F02,Southeast Hub,1600000000,80000000
+F03,Midwest Flex Hub,1600000000,140000000
+F04,Northeast Hub,450000000,900000000
+F05,Appalachian Sheet Hub,500000000,0
+F06,Delta Flex Hub,1150000000,40000000
+F07,Gateway Sheet Hub,965000000,0
+F08,Inland West Fanfold Hub,0,60000000
+F09,South Plains Hub,450000000,900000000
+F10,Central Expansion Hub,1250000000,500000000

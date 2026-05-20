@@ -1,0 +1,7 @@
+facility_id,facility_name,latitude,longitude,family_a_capacity_msf,family_b_capacity_msf,open_month,open_year,close_month,close_year,family_a_adjust_month,family_a_adjust_year,family_a_adjust_msf,family_b_adjust_month,family_b_adjust_year,family_b_adjust_msf
+F01,North Hub,41.18,-87.42,65,120,1,2025,12,2028,1,2027,80,1,2027,135
+F02,Southeast Hub,33.52,-84.01,70,110,1,2025,12,2028,6,2026,82,6,2026,125
+F03,Northeast Hub,40.94,-75.21,55,95,1,2025,12,2028,1,2027,68,1,2027,110
+F04,Central Hub,39.73,-86.34,78,88,11,2025,12,2028,1,2027,96,1,2027,102
+F05,West Hub,34.24,-117.62,20,68,1,2025,12,2028,1,2027,28,1,2027,82
+

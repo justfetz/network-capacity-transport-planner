@@ -1,0 +1,13 @@
+service_status,product_family,customer_name,city,state,month,year,demand_sqft,assigned_facility,distance_miles
+Serviced,family_b,Upper Midwest Retail,Madison,WI,JANUARY,2026,35000000,Great Lakes Hub,119.31
+Serviced,family_b,Northeast Grocery,Allentown,PA,FEBRUARY,2026,42000000,Northeast Hub,36.01
+Serviced,family_a,Southern Box Works,Birmingham,AL,MARCH,2026,65000000,Appalachian Sheet Hub,44.95
+Serviced,family_b,Rocky Mountain Distribution,Denver,CO,APRIL,2026,55000000,South Plains Hub,662.35
+Serviced,family_b,Pacific Retail Network,Sacramento,CA,MAY,2026,48000000,Inland West Fanfold Hub,378.39
+Serviced,family_a,Ohio Valley Industrial,Louisville,KY,JUNE,2026,72000000,Central Expansion Hub,107.20
+Serviced,family_a,Mid-Atlantic Packaging,Richmond,VA,JULY,2026,58000000,Northeast Hub,248.38
+Serviced,family_b,Desert Consumer Logistics,Phoenix,AZ,AUGUST,2026,64000000,South Plains Hub,884.16
+Serviced,family_b,Florida Growth Channel,Orlando,FL,SEPTEMBER,2026,51000000,Southeast Hub,401.54
+Serviced,family_b,Mountain States Demand,Salt Lake City,UT,OCTOBER,2026,47000000,Inland West Fanfold Hub,560.29
+Serviced,family_b,West Coast Seasonal,Seattle,WA,NOVEMBER,2026,39000000,Inland West Fanfold Hub,967.24
+Serviced,family_a,Plains Industrial Lift,St. Louis,MO,DECEMBER,2026,85000000,Gateway Sheet Hub,0.00

@@ -1,0 +1,12 @@
+product_family,customer_name,city,state,month,year,latitude,longitude,demand_msf
+family_b,Metro Foods,Springfield,IL,JANUARY,2026,39.79,-89.65,18
+family_b,Keystone Market,Allentown,PA,FEBRUARY,2026,40.61,-75.49,22
+family_a,Gulf Packaging,Birmingham,AL,MARCH,2026,33.52,-86.81,14
+family_b,Front Range Supply,Denver,CO,APRIL,2026,39.74,-104.99,26
+family_a,Valley Distribution,Fresno,CA,MAY,2026,36.74,-119.77,12
+family_b,Tri-State Retail,Louisville,KY,JUNE,2026,38.25,-85.76,24
+family_a,Capital Wholesale,Richmond,VA,JULY,2026,37.54,-77.43,10
+family_b,Lakefront Consumer,Cleveland,OH,AUGUST,2026,41.50,-81.69,19
+family_a,Sunbelt Partners,Orlando,FL,SEPTEMBER,2026,28.54,-81.38,16
+family_b,Inland Commerce,Salt Lake City,UT,OCTOBER,2026,40.76,-111.89,21
+

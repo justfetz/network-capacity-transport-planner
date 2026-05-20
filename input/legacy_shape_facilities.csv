@@ -1,0 +1,11 @@
+facility_id,facility_name,latitude,longitude,family_a_capacity_msf,family_b_capacity_msf,open_month,open_year,close_month,close_year,family_a_adjust_month,family_a_adjust_year,family_a_adjust_msf,family_b_adjust_month,family_b_adjust_year,family_b_adjust_msf
+F01,Great Lakes Hub,41.86,-87.73,1500,520,1,2021,1,2027,13,2028,1500,1,2023,52
+F02,Southeast Hub,33.75,-84.39,1600,800,1,2021,1,2027,13,2028,1600,1,2023,80
+F03,Midwest Flex Hub,41.08,-85.14,1600,800,1,2021,2,2027,13,2028,1600,1,2024,140
+F04,Northeast Hub,40.96,-76.00,450,900,1,2021,1,2027,13,2028,450,13,2028,900
+F05,Appalachian Sheet Hub,34.17,-86.84,500,0,1,2021,1,2027,13,2028,500,13,2028,0
+F06,Delta Flex Hub,35.15,-90.05,1150,400,1,2021,1,2027,13,2028,1150,1,2023,40
+F07,Gateway Sheet Hub,38.63,-90.20,1050,0,1,2021,1,2027,13,2028,1050,13,2028,0
+F08,Inland West Fanfold Hub,34.06,-117.65,0,30,1,2021,1,2027,13,2028,0,1,2023,60
+F09,South Plains Hub,32.78,-96.80,450,900,12,2022,1,2027,13,2028,450,13,2028,900
+F10,Central Expansion Hub,39.77,-86.16,1250,500,12,2023,1,2027,13,2028,1250,13,2028,500

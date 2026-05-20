@@ -1,0 +1,13 @@
+product_family,customer_name,city,state,month,year,latitude,longitude,demand_msf
+family_b,Upper Midwest Retail,Madison,WI,JANUARY,2026,43.07,-89.40,35
+family_b,Northeast Grocery,Allentown,PA,FEBRUARY,2026,40.61,-75.49,42
+family_a,Southern Box Works,Birmingham,AL,MARCH,2026,33.52,-86.81,65
+family_b,Rocky Mountain Distribution,Denver,CO,APRIL,2026,39.74,-104.99,55
+family_b,Pacific Retail Network,Sacramento,CA,MAY,2026,38.58,-121.49,48
+family_a,Ohio Valley Industrial,Louisville,KY,JUNE,2026,38.25,-85.76,72
+family_a,Mid-Atlantic Packaging,Richmond,VA,JULY,2026,37.54,-77.43,58
+family_b,Desert Consumer Logistics,Phoenix,AZ,AUGUST,2026,33.45,-112.07,64
+family_b,Florida Growth Channel,Orlando,FL,SEPTEMBER,2026,28.54,-81.38,51
+family_b,Mountain States Demand,Salt Lake City,UT,OCTOBER,2026,40.76,-111.89,47
+family_b,West Coast Seasonal,Seattle,WA,NOVEMBER,2026,47.61,-122.33,39
+family_a,Plains Industrial Lift,St. Louis,MO,DECEMBER,2026,38.63,-90.20,85
